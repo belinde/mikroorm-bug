@@ -1,0 +1,29 @@
+{
+  "name": "chalkboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node-dev -r dotenv/config src/index.ts"
+  },
+  "devDependencies": {
+    "@mikro-orm/cli": "5.6.12",
+    "dotenv": "16.0.3",
+    "ts-node-dev": "2.0.0",
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "@mikro-orm/core": "5.6.12",
+    "@mikro-orm/mysql": "5.6.12",
+    "@mikro-orm/reflection": "5.6.12",
+    "ulid": "^2.3.0"
+  },
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "./src/mikro-orm.config.ts"
+    ]
+  }
+}

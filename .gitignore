@@ -1,0 +1,10 @@
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/
+cache/
+.env
+src/chalkboard/
+src/build.txt
